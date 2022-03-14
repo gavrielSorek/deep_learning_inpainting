@@ -13,13 +13,18 @@ or:
 
 # You need to verify that:
 In the folder of model.py found the following folders: default_models, client_saved_model, Masks, predictions.
+
+### client_saved_model - will contain the client models.
+
 default models - contain our trained models.
-client_saved_model - will contain the client models.
+
 Masks - contain masks for the model (for training).
+
 prediction - will contain the predictions of the clients photo.
 
 
 
 
-# to run enter "python3 model.py"
+### To run enter "python3 model.py"
+
 if you have gpu the model will use it for learnining.
